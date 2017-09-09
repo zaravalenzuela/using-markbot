@@ -1,13 +1,9 @@
 repo: "using-markbot"
 canvasCourse: "web-dev-1"
 
-naming: true
-restrictFileTypes: true
-
-git:
-  numCommits: 2
-  allCommitted: true
-  allSynced: true
+inherit:
+  - naming-restrict-live
+  - git-2
 
 html:
   - path: "index.html"
